@@ -444,8 +444,13 @@
     }
 
 
-    .homepage_locations_title {
+    .homepage_locations_eyebrow {
         font-size: 38px;
+    }
+
+
+    .homepage_locations_title {
+        font-size: 15px;
     }
 
 
