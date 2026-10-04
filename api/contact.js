@@ -285,10 +285,12 @@ module.exports = async function handler(request, response) {
 
     const resendApiKey = process.env.RESEND_API_KEY;
     const contactToEmail = "maeve_lobo@hotmail.com";
-    const contactFromEmail = process.env.CONTACT_FROM_EMAIL;
+    const contactFromEmail =
+        process.env.CONTACT_FROM_EMAIL ||
+        "Flourish At Home <maeve@flourishathome.net>";
 
 
-    if (!resendApiKey || !contactFromEmail) {
+    if (!resendApiKey) {
         console.error("Contact form email environment variables are not configured.");
 
         return sendJson(response, 500, {
