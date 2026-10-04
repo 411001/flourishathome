@@ -247,7 +247,7 @@ a {
     color: var(--lime-green); 
  
     font-family: "Open_Sans"; 
-    font-size: 15px; 
+    font-size: 48px; 
     font-weight: 700; 
  
     text-transform: uppercase; 
@@ -261,7 +261,7 @@ a {
     color: var(--navy-blue); 
  
     font-family: "Thin_Formal_Clean"; 
-    font-size: 48px; 
+    font-size: 15px; 
     font-weight: bold; 
     line-height: 1.1; 
  
