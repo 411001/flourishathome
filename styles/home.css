@@ -342,7 +342,7 @@
     color: var(--light-green);
 
     font-family: "Open_Sans";
-    font-size: 14px;
+    font-size: 48px;
     font-weight: 700;
 
     text-transform: uppercase;
@@ -356,7 +356,7 @@
     color: white;
 
     font-family: "Thin_Formal_Clean";
-    font-size: 42px;
+    font-size: 28px;
     font-weight: bold;
     line-height: 1.15;
 
@@ -493,8 +493,13 @@
     }
 
 
+    .homepage_cta_eyebrow {
+        font-size: 38px;
+    }
+
+
     .homepage_cta_title {
-        font-size: 35px;
+        font-size: 24px;
     }
 
 }
