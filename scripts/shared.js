@@ -159,21 +159,30 @@ document.addEventListener("submit", async event => {
 
     try {
 
-        const response = await fetch("/api/contact", {
+        const response = await fetch("https://formsubmit.co/ajax/maeve_lobo@hotmail.com", {
             method: "POST",
 
             headers: {
-                "Content-Type": "application/json"
+                "Content-Type": "application/json",
+                "Accept": "application/json"
             },
 
-            body: JSON.stringify(payload)
+            body: JSON.stringify({
+                name: payload.name,
+                email: payload.email,
+                phone: payload.phone || "Not provided",
+                message: payload.message,
+                _subject: "Flourish At Home Website Inquiry",
+                _template: "table",
+                _honey: payload.website
+            })
         });
 
 
         const result = await response.json().catch(() => ({}));
 
 
-        if (!response.ok) {
+        if (!response.ok || result.success === false) {
             throw new Error(
                 result.message ||
                 "We could not send your message. Please try again."
