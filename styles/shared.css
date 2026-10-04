@@ -172,7 +172,7 @@ a {
     color: var(--navy-blue); 
     font-family: "Thin_Formal_Clean"; 
     text-align: center; 
-    font-size: 30px; 
+    font-size: 52px; 
     font-weight: 600; 
     letter-spacing: .1px; 
  
@@ -375,7 +375,7 @@ a {
     } 
  
     .menu_bar_company_text { 
-        font-size: 24px; 
+        font-size: 40px; 
     } 
  
     .menu_bar_links { 
