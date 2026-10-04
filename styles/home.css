@@ -198,7 +198,7 @@
     color: var(--lime-green);
 
     font-family: "Open_Sans";
-    font-size: 15px;
+    font-size: 48px;
     font-weight: 700;
 
     text-transform: uppercase;
@@ -212,7 +212,7 @@
     color: var(--header-color);
 
     font-family: "Thin_Formal_Clean";
-    font-size: 48px;
+    font-size: 28px;
     font-weight: bold;
     line-height: 1.1;
 
@@ -460,8 +460,13 @@
     }
 
 
-    .homepage_values_title {
+    .homepage_values_eyebrow {
         font-size: 38px;
+    }
+
+
+    .homepage_values_title {
+        font-size: 24px;
     }
 
 
