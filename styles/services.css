@@ -32,7 +32,7 @@
     color: var(--lime-green);
 
     font-family: "Open_Sans";
-    font-size: 15px;
+    font-size: clamp(42px, 5vw, 62px);
     font-weight: 700;
 
     text-transform: uppercase;
@@ -46,7 +46,7 @@
     color: var(--header-color);
 
     font-family: "Thin_Formal_Clean";
-    font-size: clamp(42px, 5vw, 62px);
+    font-size: 28px;
     font-weight: bold;
     line-height: 1.05;
 
