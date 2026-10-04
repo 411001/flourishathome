@@ -168,6 +168,13 @@ a {
     justify-content: center; 
 } 
  
+.menu_bar_company_name_group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 .menu_bar_company_text { 
     color: var(--navy-blue); 
     font-family: "Thin_Formal_Clean"; 
@@ -179,6 +186,14 @@ a {
     margin: 0; 
 } 
  
+.menu_bar_company_subtitle {
+    color: var(--navy-blue);
+    font-family: "Open_Sans";
+    font-size: 16px;
+    font-weight: 500;
+    margin: 2px 0 0 0;
+}
+
 .menu_bar_company_logo_link { 
     display: flex; 
     align-items: center; 
